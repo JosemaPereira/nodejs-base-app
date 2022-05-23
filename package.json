@@ -1,0 +1,21 @@
+{
+  "name": "myanimelist-client",
+  "version": "1.0.0",
+  "description": "MyAnimeList client",
+  "main": "index.js",
+  "scripts": {
+    "generate": "./node_modules/.bin/plop --plopfile ./generators/index.js",
+    "lint": "./node_modules/.bin/lerna run lint",
+    "start": "./node_modules/.bin/lerna run start",
+    "dev": "./node_modules/.bin/lerna run dev",
+    "test": "./node_modules/.bin/lerna run test",
+    "postinstall": "./node_modules/.bin/lerna bootstrap"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "lerna": "^4.0.0",
+    "plop": "^3.1.0"
+  }
+}

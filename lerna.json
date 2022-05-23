@@ -1,0 +1,23 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "version": "1.0.0",
+  "command": {
+    "publish": {
+      "message": "chore(release): publish"
+    },
+    "version": {
+      "allowBranch": [
+        "release/*"
+      ],
+      "ammend": true,
+      "tagVersionPrefix": "v",
+      "yes": true,
+      "conventionalCommits": true,
+      "exact": true,
+      "includeMergedTags": true,
+      "push": false
+    }
+  }
+}
